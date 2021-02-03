@@ -19,5 +19,5 @@ def blog(request):
 
 
 def contact(request):
-    return render(request, 'webapp/contact')
+    return render(request, 'webapp/contact.html')
 
