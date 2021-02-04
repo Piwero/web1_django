@@ -3,5 +3,14 @@
 {% load static %}
 
 {% block content %}
-<div><p></p></div>
+    {% for service in services %}
+<div>
+    <p>
+    <h2 style="color: white;">{{service.title}}</h2>
+    <p style="color: white;"> {{service.content}} </p>
+    <p><img src="{{service.image.url}}"></p>
+    </p>
+</div>
+
+    {% endfor %}
 {% endblock %}
