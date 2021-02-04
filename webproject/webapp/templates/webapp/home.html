@@ -1,0 +1,43 @@
+{% extends "webapp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'webproject/img/name.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Efficacy</span>
+            <span class="section-heading-lower">The best products</span>
+          </h2>
+          <p class="mb-3">Delivery to your home in less that 48 hours with ordinary couriers. In less than 24 hours with our express service.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Total agreement</span>
+                <span class="section-heading-lower">Guaranteed</span>
+              </h2>
+              <p class="mb-0">With over 75 years of experience behind us, from Order Management we have the knowledge and tools necessary to carry any object on the door of his house with punctuality and professionalism.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
