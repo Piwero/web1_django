@@ -3,14 +3,25 @@
 {% load static %}
 
 {% block content %}
+
     {% for service in services %}
-<div>
-    <p>
-    <h2 style="color: white;">{{service.title}}</h2>
-    <p style="color: white;"> {{service.content}} </p>
-    <p><img src="{{service.image.url}}"></p>
-    </p>
-</div>
+
+ <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{{service.image.url}}" alt="" style="width: 50%;">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-lower" style="color: #696969">{{service.title}}</span>
+            <span class="section-heading-upper">{{service.content}}</span>
+          </h2>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
 
     {% endfor %}
+
 {% endblock %}
