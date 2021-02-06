@@ -12,11 +12,6 @@ def shop(request):
     return render(request, 'webapp/shop.html')
 
 
-def blog(request):
-
-    return render(request, 'webapp/blog.html')
-
-
 def contact(request):
     return render(request, 'webapp/contact.html')
 
