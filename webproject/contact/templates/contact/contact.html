@@ -1,0 +1,20 @@
+{% extends "webapp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<div class="contForm" xmlns="http://www.w3.org/1999/html">
+    {% if "valid" in request.GET %}
+        <p style="color: snow;">Information sent successfully </p>
+    {% endif %}
+
+    <form action="" method="POST" style="text-align: center;">
+        {% csrf_token %}
+        <table style="color: white; margin:20px auto;">{{my_form.as_table}}</table>
+        <input type="submit" value="Send" style="width: 150px;">
+
+    </form>
+</div>
+
+
+{% endblock %}
