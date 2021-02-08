@@ -11,7 +11,3 @@ def shop(request):
 
     return render(request, 'webapp/shop.html')
 
-
-def contact(request):
-    return render(request, 'webapp/contact.html')
-
