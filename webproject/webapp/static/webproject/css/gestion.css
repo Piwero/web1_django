@@ -276,4 +276,13 @@ ul.errorlist{
   padding-top: .75rem;
   font-style: italic;
   color: red;
-}
+  }
+
+.linksCategories{
+    color: white !important;
+    text-decoration:underline;
+    }
+
+.linksCategories:hover{
+ text-decoration:none;
+    }
