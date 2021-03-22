@@ -10,8 +10,8 @@ class ProductCategory(models.Model):
         verbose_name = "ProductCategory"
         verbose_name_plural = "ProductCategories"
 
-        def __str__(self):
-            return self.name
+    def __str__(self):
+        return self.name
 
 
 class Product(models.Model):
@@ -20,13 +20,15 @@ class Product(models.Model):
     image = models.ImageField(upload_to="shop", null=True, blank=True)
     price = models.FloatField()
     active = models.BooleanField(default=True)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         verbose_name = "Product"
         verbose_name_plural = "Products"
 
-        def __str__(self):
-            return self.name
+    def __str__(self):
+        return self.name
 
 
 
