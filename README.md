@@ -1,7 +1,10 @@
 # web1_django
+<<<<<<< HEAD
 web project with Django
 
 https://piwero-django1.herokuapp.com
+
+web project for a company with a blog, contact form, services catalogue and shop.
 
 ## Getting started:
 
@@ -9,6 +12,7 @@ https://piwero-django1.herokuapp.com
 ```commandline
 virtualenv .venv -p python3
 . .venv/bin/activate
+<<<<<<< HEAD
 or python3 -m virtualenv .venv
 ```
 
@@ -60,6 +64,7 @@ pre-commit install
 ```commandline
 python manage.py migrate
 ```
+
 ### Load fixtures
 ```commandline
 python manage.py loaddata fixtures
@@ -67,13 +72,10 @@ python manage.py loaddata fixtures
 
 ### Run server
 
-#### Backend
+#### Run Web
 ```commandline
 python manage.py runserver
 ```
 
 http://localhost:8000/
-
-
-
 
