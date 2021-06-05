@@ -4,11 +4,11 @@ from .models import Category, Post
 
 # Register your models here.
 class CategoryAdmin(admin.ModelAdmin):
-    readonly_fields = ('created', 'updated')
+    readonly_fields = ("created", "updated")
 
 
 class PostAdmin(admin.ModelAdmin):
-    readonly_fields = ('created', 'updated')
+    readonly_fields = ("created", "updated")
 
 
 admin.site.register(Category, CategoryAdmin)
