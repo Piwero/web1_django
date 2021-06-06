@@ -17,7 +17,7 @@ statistics = false
 
 [tool.isort]
 line_length = 88
-skip_glob = "*/migrations/.py"
+skip_glob = "**/migrations/*.py"
 multi_line_output = 3
 profile = "black"
 filter_files = true
@@ -32,14 +32,14 @@ authors = ["Piwero <piwero@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.7.9"
-Django = "3.2.4"
+Django = "3.2.1"
 
 [tool.poetry.dev-dependencies]
-black = "^21.5b2"
-flake9 = "3.8.3"
-ipdb = "^0.13.9"
-isort = "^5.8.0"
-pre-commit = "^2.13.0"
+black = "21.5b2"
+flake9 = "3.8.3.post2"
+ipdb = "0.13.9"
+isort = "5.8.0"
+pre-commit = "2.13.0"
 
 
 [build-system]
