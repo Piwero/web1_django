@@ -48,3 +48,5 @@ class ShoppingCart:
     def reset_shopping_cart(self):
         self.session[settings.SHOPPING_CART_SESSION_ID] = {}
         self.session.modified = True
+
+
