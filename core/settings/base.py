@@ -74,7 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'shopping_cart.context_processor.total_shoppingcart_quantity',
+                'shoppingcart.context_processor.total_shoppingcart_quantity',
             ],
         },
     },
@@ -155,3 +155,5 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+
+SHOPPING_CART_SESSION_ID = "shoppingcart"
