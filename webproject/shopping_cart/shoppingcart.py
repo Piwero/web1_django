@@ -1,12 +1,14 @@
+from django.conf import settings
+
 class ShoppingCart:
     def __init__(self, request):
-        self.request = request
+        # self.request = request
         self.session = request.session
-        shoppingcart = self.session.get("shoppingcart")
+        shoppingcart = self.session.get(settings.SHOPPING_CART_SESSION_ID)
         if not shoppingcart:
-            shoppingcart = self.session["shoppingcart"] = {}
-        else:
-            self.shoppingcart = shoppingcart
+            shoppingcart = self.session[settings.SHOPPING_CART_SESSION_ID] = {}
+
+        self.shoppingcart = shoppingcart
 
     def add_product(self, product):
         if str(product.id) not in self.shoppingcart.keys():
@@ -25,7 +27,7 @@ class ShoppingCart:
         self.save_shopping_cart()
 
     def save_shopping_cart(self):
-        self.session["shoppingcart"] = self.shoppingcart
+        self.session[settings.SHOPPING_CART_SESSION_ID] = self.shoppingcart
         self.session.modified = True
 
     def eliminate(self, product):
@@ -44,5 +46,5 @@ class ShoppingCart:
         self.save_shopping_cart()
 
     def reset_shopping_cart(self):
-        self.session["shoppingcart"] = {}
+        self.session[settings.SHOPPING_CART_SESSION_ID] = {}
         self.session.modified = True
