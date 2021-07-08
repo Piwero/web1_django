@@ -5,7 +5,8 @@
 {% block content %}
 <div class="container">
     <div style="float:right;">
-        <p style="color: white;">Total: {{total_shoppingcart_quantity}}</p>
+        <p style="color: white;">Total: £{{total_shoppingcart_quantity}}</p>
+        {% include "shoppingcart/widget.html" %}
     </div>
 </div>
 <div class="container">
@@ -22,7 +23,7 @@
 
                 </div>
                 <div class="card-footer text-center">
-                    <a href="#" class="btn btn-success">Add to Basket</a>
+                    <a href="{% url 'shoppingcart:add' product.id" class="btn btn-success">Add to Basket</a>
                 </div>
             </div>
 
