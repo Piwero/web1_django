@@ -1,8 +1,7 @@
 from django.shortcuts import redirect
 
-from webproject.basket.basket import Basket
-from webproject.shop.models import Product
-
+from .basket import Basket
+from shop.models import Product
 
 
 def add_product(request, product_id):
