@@ -1,6 +1,5 @@
 from django.urls import path
 
-from webproject.webapp import views
 
 from . import views
 

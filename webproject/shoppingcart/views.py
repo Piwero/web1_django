@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.shortcuts import redirect
 
 from webproject.shop.models import Product
@@ -6,8 +5,8 @@ from webproject.shoppingcart.shoppingcart import ShoppingCart
 
 
 def add_product(request, product_id):
-    shoppingcart =ShoppingCart(request)
-    product = Product(id= product_id)
+    shoppingcart = ShoppingCart(request)
+    product = Product(id=product_id)
     shoppingcart.add_product(product)
 
     return redirect("shop")
