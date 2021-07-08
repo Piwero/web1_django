@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     "blog",
     "contact",
     "shop",
-    'shopping_cart',
+    'basket',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +74,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'shoppingcart.context_processor.total_shoppingcart_quantity',
+                'basket.context_processor.total_basket_quantity',
             ],
         },
     },
@@ -156,4 +156,4 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 
-SHOPPING_CART_SESSION_ID = "shoppingcart"
+BASKET_SESSION_ID = "basket"

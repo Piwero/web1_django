@@ -25,5 +25,6 @@ urlpatterns = [
     path("blog/", include("blog.urls")),
     path("contact/", include("contact.urls")),
     path("shop/", include("shop.urls")),
+    path("basket/", include("basket.urls")),
     path("", include("webapp.urls")),
 ]
