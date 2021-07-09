@@ -8,7 +8,6 @@
         <tr>
             <th>Product</th>
             <th>Qty</th>
-            <th>Unit Price</th>
             <th>Total Line</th>
         </tr>
     </thead>
@@ -25,10 +24,6 @@
                     <td>
                         £{{value.price}}
                     </td>
-                    <td>
-                        £{# calculate product.price * product quantity #}
-                    </td>
-
                 </tr>
             {% endfor %}
         {% else %}
