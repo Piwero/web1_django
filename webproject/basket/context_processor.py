@@ -4,5 +4,5 @@ def total_basket_quantity(request):
     if request.user.is_authenticated:
         if 'basket' in request.session:
             for key, value in request.session["basket"].items():
-                total = total + (float(value["price"]) * value["quantity"])
+                total = total + float(value["price"])
     return {"total_basket_quantity": total}
