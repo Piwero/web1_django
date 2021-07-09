@@ -4,9 +4,9 @@ class Basket:
     def __init__(self, request):
         self.request = request
         self.session = request.session
-        basket = self.session.get(settings.BASKET_SESSION_ID)
+        basket = self.session.get("basket")
         if not basket:
-            basket = self.session[settings.BASKET_SESSION_ID] = {}
+            basket = self.session["basket"] = {}
 
         self.basket = basket
 
