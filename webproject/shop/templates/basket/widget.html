@@ -8,7 +8,8 @@
         <tr>
             <th>Product</th>
             <th>Qty</th>
-            <th>Sum</th>
+            <th>Unit Price</th>
+            <th>Total Line</th>
         </tr>
     </thead>
     <tbody>
@@ -16,12 +17,16 @@
             {% for key, value in request.session.basket.items %}
                 <tr class="text-center">
                     <td>{{value.name}}</td>
-                    <td>{{value.quantity}}</td>
                     <td>
-                        <a href="{% url 'basket:add' value.product_id %" class="btn btn-sm btn-success">+</a>
-                        <a href="{% url 'basket:reduce' value.product_id %" class="btn btn-sm btn-danger">-</a>
+                        <a href="{% url 'basket:add' value.product_id %}" class="btn btn-sm btn-success">+</a>
+                        <a href="{% url 'basket:reduce' value.product_id %}" class="btn btn-sm btn-danger">-</a>
+                        {{value.quantity}}
+                    </td>
+                    <td>
                         £{{value.price}}
-
+                    </td>
+                    <td>
+                        £{# calculate product.price * product quantity #}
                     </td>
 
                 </tr>
