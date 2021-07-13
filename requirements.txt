@@ -1,0 +1,77 @@
+appdirs==1.4.4
+appnope==0.1.2
+asgiref==3.3.1
+automium==0.2.6
+automium-web==0.1.1
+backcall==0.2.0
+black @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/08/e6/49/369e763476cf73e24c9b18c6ea3a84e1beea9792fc5fc45ded0f40d4ec/black-21.5b2-py3-none-any.whl
+CacheControl==0.12.6
+cachy==0.3.0
+certifi==2020.12.5
+cfgv @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/6b/52/b7/27617ac43f25c9962779813593809288745c414fd878b968cc3d91ca6c/cfgv-3.3.0-py2.py3-none-any.whl
+chardet==4.0.0
+cleo==0.8.1
+click==7.1.2
+clikit==0.6.2
+crashtest==0.3.1
+decorator==4.4.2
+distlib==0.3.2
+Django==3.1.5
+filelock==3.0.12
+flake9 @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/38/48/3d/73a882d45c38daf550595eef918b85c97b42ee7a993b086456eb488ea0/flake9-3.8.3.post2-py3-none-any.whl
+Flask==1.1.2
+html5lib==1.1
+identify @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/f9/57/64/ce0dd0e542267a1c1e2553cdd5f2930dcfba1e0d09d6ee057878415f7e/identify-2.2.9-py2.py3-none-any.whl
+idna==2.10
+ipdb==0.13.4
+ipython==7.20.0
+ipython-genutils==0.2.0
+isort @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/2c/6b/32/7acaeb42372692d28a31dfd6de22b903d9a0605a162d2ce42be82c41f5/isort-5.8.0-py3-none-any.whl
+itsdangerous==1.1.0
+jedi==0.18.0
+Jinja2==2.11.3
+keyring==21.8.0
+legacy==0.1.6
+lockfile==0.12.2
+MarkupSafe==1.1.1
+matplotlib-inline @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/d8/4c/e1/8b0adf0d076721db928e74aaaf5cf1d73cec52ea2a27ebabe3e9be8957/matplotlib_inline-0.1.2-py3-none-any.whl
+mccabe @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/96/5e/5f/21ae5296697ca7f94de4da6e21d4936d74029c352a35202e4c339a4253/mccabe-0.6.1-py2.py3-none-any.whl
+msgpack==1.0.2
+mypy-extensions @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/92/45/bf/1807ce854ff668d92602207a37bfa9316def2a3f257bd03c4c5be4bc9b/mypy_extensions-0.4.3-py2.py3-none-any.whl
+nodeenv @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/54/f0/a1/53d1e469f8e160bad013c23411375fd63d4ea70cda0fc649fcb244ca7e/nodeenv-1.6.0-py2.py3-none-any.whl
+packaging==20.9
+parso==0.8.1
+pastel==0.2.1
+pathspec @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/40/8b/b2/80a6945971d8475bcc04d09afec4845855dd74f68da6a4c18bbf8f7784/pathspec-0.8.1-py2.py3-none-any.whl
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==8.1.0
+pkginfo==1.7.0
+poetry==1.1.6
+poetry-core==1.0.3
+pre-commit @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/7b/f6/8d/c5425b5811fbbbe85e82cc7980de882a7b239984e2338412a964d62d8f/pre_commit-2.13.0-py2.py3-none-any.whl
+prompt-toolkit==3.0.14
+ptyprocess==0.7.0
+pycodestyle @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/00/8e/03/5dd26ed1283fc5849fa141c87a1d99659b252d7a2105d6ec509c6de6cd/pycodestyle-2.6.0-py2.py3-none-any.whl
+pyflakes @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/c6/a2/76/8815e047ae91abaf39cdde4a16f52907ed96ae14e12a498dd0704cb43a/pyflakes-2.2.0-py2.py3-none-any.whl
+Pygments==2.7.4
+pylev==1.4.0
+pyparsing==2.4.7
+python-decouple==3.4
+pytz==2020.5
+PyYAML @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/b6/55/22/537845ea953a4d8d5006f11bdd1b03824425d7f809d5a7ae8efbbeab95/PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl
+regex @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/97/e1/51/04a81888501f5a1a42d2ac2a4f980cfe1a022a377f9653dc064bad835d/regex-2021.4.4-cp39-cp39-macosx_10_9_x86_64.whl
+requests==2.25.1
+requests-toolbelt==0.9.1
+services==0.1.1
+shellingham==1.4.0
+six==1.16.0
+sqlparse==0.4.1
+toml @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/6b/6a/c9/53b19f7870a77d855e8b05ecdc98193944e5d246dafe11bbcad850ecba/toml-0.10.2-py2.py3-none-any.whl
+tomlkit==0.7.2
+traitlets==5.0.5
+urllib3==1.26.2
+virtualenv==20.4.7
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug==1.0.1
