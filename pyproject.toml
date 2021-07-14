@@ -8,7 +8,7 @@ exclude = '''
 '''
 
 [tool.flake8]
-ignore = ["F405", "E501", "W503", "E731", "E741",]
+ignore = ["F405", "E501", "W503","E722", "E731", "E741",]
 max-line-length = 88
 exclude = [
     ".git", "migrations", "node_modules", "docs", ".venv", "frontend"

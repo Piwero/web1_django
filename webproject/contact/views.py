@@ -1,9 +1,10 @@
-from django.shortcuts import render, redirect
-from .forms import ContactForm
 from django.core.mail import EmailMessage
+from django.shortcuts import (
+    redirect,
+    render,
+)
 
-
-# Create your views here.
+from .forms import ContactForm
 
 
 def contact(request):
