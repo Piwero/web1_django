@@ -1,8 +1,8 @@
 from django.shortcuts import redirect
 
+from shop.models import Product
 
 from .basket import Basket
-from shop.models import Product
 
 
 def add_product(request, product_id):
@@ -34,4 +34,3 @@ def reset_basket(request):
     basket.reset_basket()
 
     return redirect("shop")
-
