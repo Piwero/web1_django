@@ -38,4 +38,12 @@ jobs:
         run: |
           source .venv/bin/activate
           export SECRET_KEY=${{ secrets.SECRET_KEY }}
+          export EMAIL_BACKEND=${{ secrets.EMAIL_BACKEND }}
+          export EMAIL_HOST=${{ secrets.EMAIL_HOST }}
+          export EMAIL_USE_TLS=${{ secrets.EMAIL_USE_TLS }}
+          export EMAIL_PORT=${{ secrets.EMAIL_PORT }}
+          export EMAIL_HOST_USER=${{ secrets.EMAIL_HOST_USER }}
+          export EMAIL_HOST_PASSWORD=${{ secrets.EMAIL_HOST_PASSWORD }}
+
           pytest
+
