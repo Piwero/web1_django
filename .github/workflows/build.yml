@@ -44,6 +44,5 @@ jobs:
           export EMAIL_PORT=${{ secrets.EMAIL_PORT }}
           export EMAIL_HOST_USER=${{ secrets.EMAIL_HOST_USER }}
           export EMAIL_HOST_PASSWORD=${{ secrets.EMAIL_HOST_PASSWORD }}
-
           pytest
 
