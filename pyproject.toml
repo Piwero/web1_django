@@ -40,8 +40,15 @@ flake9 = "3.8.3.post2"
 ipdb = "0.13.9"
 isort = "5.8.0"
 pre-commit = "2.13.0"
+pytest = "^6.2.4"
+pytest-django = "^4.4.0"
+python-decouple = "^3.4"
 
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "webproject.webproject.settings.base"
+python_files = "tests.py test_*.py *_tests.py"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
