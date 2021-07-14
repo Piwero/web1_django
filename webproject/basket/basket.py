@@ -1,5 +1,6 @@
 from django.conf import settings
 
+
 class Basket:
     def __init__(self, request):
         self.request = request
@@ -50,6 +51,3 @@ class Basket:
     def reset_basket(self):
         self.session[settings.BASKET_SESSION_ID] = {}
         self.session.modified = True
-
-
-
