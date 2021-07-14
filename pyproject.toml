@@ -42,6 +42,7 @@ isort = "5.8.0"
 pre-commit = "2.13.0"
 pytest = "^6.2.4"
 pytest-django = "^4.4.0"
+python-decouple = "^3.4"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "webproject.webproject.settings.base"
