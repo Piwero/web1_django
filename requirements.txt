@@ -22,7 +22,7 @@ flake9 @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/38/48/3d/73a882d
 Flask==1.1.2
 html5lib==1.1
 identify @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/f9/57/64/ce0dd0e542267a1c1e2553cdd5f2930dcfba1e0d09d6ee057878415f7e/identify-2.2.9-py2.py3-none-any.whl
-idna==2.10
+idna==3.2
 ipdb==0.13.4
 ipython==7.20.0
 ipython-genutils==0.2.0
