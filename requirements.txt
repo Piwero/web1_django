@@ -45,7 +45,7 @@ pastel==0.2.1
 pathspec @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/40/8b/b2/80a6945971d8475bcc04d09afec4845855dd74f68da6a4c18bbf8f7784/pathspec-0.8.1-py2.py3-none-any.whl
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==8.1.0
+Pillow==8.3.1
 pkginfo==1.7.0
 poetry==1.1.6
 poetry-core==1.0.3
