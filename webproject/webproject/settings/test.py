@@ -1,3 +1,3 @@
-from .settings import *  # noqa
+from .base import *  # noqa
 
-# INSTALLED_APPS += ("webproject.tests",)
+INSTALLED_APPS += ("webproject.tests",)
