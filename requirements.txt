@@ -70,7 +70,7 @@ sqlparse==0.4.1
 toml @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/6b/6a/c9/53b19f7870a77d855e8b05ecdc98193944e5d246dafe11bbcad850ecba/toml-0.10.2-py2.py3-none-any.whl
 tomlkit==0.7.2
 traitlets==5.0.5
-urllib3==1.26.2
+urllib3==1.26.6
 virtualenv==20.4.7
 wcwidth==0.2.5
 webencodings==0.5.1
