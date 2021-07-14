@@ -39,11 +39,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "webapp",
-    "services",
-    "blog",
-    "contact",
-    "shop",
+    "webproject.webapp",
+    "webproject.services",
+    "webproject.blog",
+    "webproject.contact",
+    "webproject.shop",
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "webproject.urls"
+ROOT_URLCONF = "webproject.webproject.urls"
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "webproject.wsgi.application"
+WSGI_APPLICATION = "webproject.webproject.wsgi.application"
 
 
 # Database
