@@ -7,7 +7,7 @@ backcall==0.2.0
 black @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/08/e6/49/369e763476cf73e24c9b18c6ea3a84e1beea9792fc5fc45ded0f40d4ec/black-21.5b2-py3-none-any.whl
 CacheControl==0.12.6
 cachy==0.3.0
-certifi==2020.12.5
+certifi==2021.5.30
 cfgv @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/6b/52/b7/27617ac43f25c9962779813593809288745c414fd878b968cc3d91ca6c/cfgv-3.3.0-py2.py3-none-any.whl
 chardet==4.0.0
 cleo==0.8.1
