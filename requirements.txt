@@ -19,7 +19,7 @@ distlib==0.3.2
 Django==3.1.5
 filelock==3.0.12
 flake9 @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/38/48/3d/73a882d45c38daf550595eef918b85c97b42ee7a993b086456eb488ea0/flake9-3.8.3.post2-py3-none-any.whl
-Flask==1.1.2
+Flask==2.0.1
 html5lib==1.1
 identify @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/f9/57/64/ce0dd0e542267a1c1e2553cdd5f2930dcfba1e0d09d6ee057878415f7e/identify-2.2.9-py2.py3-none-any.whl
 idna==3.2
