@@ -30,7 +30,7 @@ isort @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/2c/6b/32/7acaeb42
 itsdangerous==1.1.0
 jedi==0.18.0
 Jinja2==3.0.1
-keyring==21.8.0
+keyring==23.0.1
 legacy==0.1.6
 lockfile==0.12.2
 MarkupSafe==1.1.1
