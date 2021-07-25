@@ -33,7 +33,7 @@ Jinja2==3.0.1
 keyring==23.0.1
 legacy==0.1.6
 lockfile==0.12.2
-MarkupSafe==1.1.1
+MarkupSafe==2.0.1
 matplotlib-inline @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/d8/4c/e1/8b0adf0d076721db928e74aaaf5cf1d73cec52ea2a27ebabe3e9be8957/matplotlib_inline-0.1.2-py3-none-any.whl
 mccabe @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/96/5e/5f/21ae5296697ca7f94de4da6e21d4936d74029c352a35202e4c339a4253/mccabe-0.6.1-py2.py3-none-any.whl
 msgpack==1.0.2
