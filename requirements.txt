@@ -61,7 +61,7 @@ python-decouple==3.4
 pytz==2020.5
 PyYAML @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/b6/55/22/537845ea953a4d8d5006f11bdd1b03824425d7f809d5a7ae8efbbeab95/PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl
 regex @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/97/e1/51/04a81888501f5a1a42d2ac2a4f980cfe1a022a377f9653dc064bad835d/regex-2021.4.4-cp39-cp39-macosx_10_9_x86_64.whl
-requests==2.25.1
+requests==2.26.0
 requests-toolbelt==0.9.1
 services==0.1.1
 shellingham==1.4.0
