@@ -46,7 +46,7 @@ pathspec @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/40/8b/b2/80a69
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.3.1
-pkginfo==1.7.0
+pkginfo==1.7.1
 poetry==1.1.6
 poetry-core==1.0.3
 pre-commit @ file:///Users/pinero/Library/Caches/pypoetry/artifacts/7b/f6/8d/c5425b5811fbbbe85e82cc7980de882a7b239984e2338412a964d62d8f/pre_commit-2.13.0-py2.py3-none-any.whl
