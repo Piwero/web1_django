@@ -27,12 +27,14 @@
     {% endfor %}
     <section>
         <div style="width:75%; text-align:center; color:white; margin:auto;">
+            {% if category in post.categories.all %}
         Categories:
             {% for post in posts %}
                 {% for category in post.categories.all %}
                 <a href="{% url 'category' category.id %}" class="linksCategories">{{category.name}}</a> &nbsp;&nbsp;&nbsp;&nbsp;
                 {% endfor %}
             {% endfor %}
+            {% endif %}
         </div>
     </section>
 

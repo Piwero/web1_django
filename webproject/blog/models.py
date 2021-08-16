@@ -20,7 +20,7 @@ class Category(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=50)
     content = models.CharField(max_length=300)
-    image = models.ImageField(upload_to="blog", null=True, blank=True)
+    image = models.ImageField(upload_to="blog", default="shop/no-product-image.jpeg")
     author = models.ForeignKey(
         User, on_delete=models.CASCADE
     )  # to delete posts if user eliminated

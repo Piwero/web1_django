@@ -80,7 +80,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8);
+  background-color: rgba(32, 19, 140);
   font-family: 'Raleway';
 }
 
@@ -134,7 +134,7 @@ p {
     left: 600;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
+    background-color: rgba(32, 19, 140);
     color: cornsilk;
     position: absolute;
   }
@@ -155,14 +155,14 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgb(242, 245, 240);
+  background-color: rgb(32, 19, 140);
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgba(32, 19, 140);
   color: cornsilk;
 }
 
@@ -229,7 +229,7 @@ p {
 }
 
 .footer {
-   background-color: rgba(24, 64, 8, 0.8);
+   background-color: rgba(32, 19, 140);
 }
 
 
@@ -288,7 +288,7 @@ ul.errorlist{
     }
 
 .contForm{
-    background-color: rgba(24, 64, 8);
+    background-color: rgba(32, 19, 140);
     width: 50%;
     margin: 10px auto;
     border-radius: 5px;
