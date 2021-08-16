@@ -8,11 +8,11 @@ def main():
     """Run administrative tasks."""
     if os.path.isfile("webproject/db.sqlite3"):
         os.environ.setdefault(
-            "DJANGO_SETTINGS_MODULE", "webproject.webproject.settings.local"
+            "DJANGO_SETTINGS_MODULE", "webproject.core.settings.local"
         )
     else:
         os.environ.setdefault(
-            "DJANGO_SETTINGS_MODULE", "webproject.webproject.settings.production"
+            "DJANGO_SETTINGS_MODULE", "webproject.core.settings.production"
         )
     try:
         from django.core.management import execute_from_command_line
