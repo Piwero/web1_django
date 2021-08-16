@@ -16,7 +16,7 @@ class ProductCategory(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=50)
     categories = models.ForeignKey(ProductCategory, on_delete=models.CASCADE)
-    image = models.ImageField(upload_to="shop", null=True, blank=True)
+    image = models.ImageField(upload_to="shop", default="shop/no-product-image.jpeg")
     price = models.FloatField()
     active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
