@@ -6,7 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    if os.path.isfile("webproject/db.sqlite3"):
+    if os.path.isfile("db.sqlite3"):
         os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings.local")
     else:
         os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings.production")
