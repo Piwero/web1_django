@@ -51,7 +51,7 @@ pytest-django = "^4.4.0"
 python-decouple = "^3.4"
 
 [tool.pytest.ini_options]
-DJANGO_SETTINGS_MODULE = "webproject.core.settings.test"
+DJANGO_SETTINGS_MODULE = "core.settings.test"
 python_files = "tests.py test_*.py *_tests.py"
 
 [build-system]

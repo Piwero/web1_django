@@ -41,11 +41,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
-    "webproject.webapp",
-    "webproject.services",
-    "webproject.blog",
-    "webproject.contact",
-    "webproject.shop",
+    "webapp",
+    "services",
+    "blog",
+    "contact",
+    "shop",
 ]
 
 MIDDLEWARE = [
@@ -60,7 +60,7 @@ MIDDLEWARE = [
 ]
 
 STATIC_FILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-ROOT_URLCONF = "webproject.core.urls"
+ROOT_URLCONF = "core.urls"
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "webproject.core.wsgi.application"
+WSGI_APPLICATION = "core.wsgi.application"
 
 
 # Database

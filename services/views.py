@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from webproject.services.models import Service
+from services.models import Service
 
 
 # Create your views here.

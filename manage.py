@@ -7,13 +7,9 @@ import sys
 def main():
     """Run administrative tasks."""
     if os.path.isfile("webproject/db.sqlite3"):
-        os.environ.setdefault(
-            "DJANGO_SETTINGS_MODULE", "webproject.core.settings.local"
-        )
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings.local")
     else:
-        os.environ.setdefault(
-            "DJANGO_SETTINGS_MODULE", "webproject.core.settings.production"
-        )
+        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings.production")
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
