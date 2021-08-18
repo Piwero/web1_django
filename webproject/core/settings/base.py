@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 import dj_database_url
@@ -133,10 +133,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = (str(BASE_DIR.joinpath("static")),)
-STATIC_ROOT = str(BASE_DIR.joinpath("staticfiles"))
+STATICFILES_DIRS = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = [
-    str(BASE_DIR.joinpath("static")),
+    os.path.join(BASE_DIR, "static"),
 ]
 STATICFILES_FINDER = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
@@ -145,7 +145,6 @@ STATICFILES_FINDER = [
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL = "/media/"
-MEDIA_ROOT = BASE_DIR / "media"
 
 # Set up email
 
