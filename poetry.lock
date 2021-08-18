@@ -575,7 +575,7 @@ testing = ["django", "django-configurations (>=2.0)"]
 name = "python-decouple"
 version = "3.4"
 description = "Strict separation of settings from code."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -719,7 +719,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "3.7.9"
-content-hash = "4f1995eeebbca3b6eee66c3d7263f90f5695c8ec0496826cc3448107422c3a2a"
+content-hash = "3d1011f8eaaa6bd9bac1bce97590c0e234ea426890ce888f7733a8180f3134f7"
 
 [metadata.files]
 appdirs = [
