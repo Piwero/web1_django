@@ -574,7 +574,7 @@ testing = ["django", "django-configurations (>=2.0)"]
 
 [[package]]
 name = "python-decouple"
-version = "3.4"
+version = "3.5"
 description = "Strict separation of settings from code."
 category = "main"
 optional = false
@@ -720,7 +720,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "3.7.9"
-content-hash = "ab5b5606756a2a2c8dcb5df1053f3d2f5659e3f04add3ed6e11844c695a8d237"
+content-hash = "fe48a60ee4af0d9871c543dfcb6c06355d52800b44f8b9c7a27580bf9ca9dd93"
 
 [metadata.files]
 appnope = [
@@ -1001,8 +1001,7 @@ pytest-django = [
     {file = "pytest_django-4.4.0-py3-none-any.whl", hash = "sha256:65783e78382456528bd9d79a35843adde9e6a47347b20464eb2c885cb0f1f606"},
 ]
 python-decouple = [
-    {file = "python-decouple-3.4.tar.gz", hash = "sha256:2e5adb0263a4f963b58d7407c4760a2465d464ee212d733e2a2c179e54c08d8f"},
-    {file = "python_decouple-3.4-py3-none-any.whl", hash = "sha256:a8268466e6389a639a20deab9d880faee186eb1eb6a05e54375bdf158d691981"},
+    {file = "python-decouple-3.5.tar.gz", hash = "sha256:68e4b3fcc97e24bc90eecc514852d0bf970f4ff031f5f7a6728ddafa9afefcaf"},
 ]
 pytz = [
     {file = "pytz-2021.1-py2.py3-none-any.whl", hash = "sha256:eb10ce3e7736052ed3623d49975ce333bcd712c7bb19a58b9e2089d4057d0798"},
