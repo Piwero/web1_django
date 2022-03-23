@@ -3,7 +3,11 @@
 {% load static %}
 
 {% block content %}
-
+<div class="container">
+    <div style="float:right;">
+        {% include "basket/widget.html" %}
+    </div>
+</div>
 <div class="container">
     <div class="row">
         {% for product in products %}
@@ -16,6 +20,9 @@
                     <h5 class="card-title">{{product.name}}</h5>
                     <p class="card-text">£{{product.price}}</p>
 
+                </div>
+                <div class="card-footer text-center">
+                    <a href="{% url 'basket:add' product.id %}" class="btn btn-success">Add to Basket</a>
                 </div>
             </div>
 

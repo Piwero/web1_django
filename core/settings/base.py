@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "blog",
     "contact",
     "shop",
+    "basket",
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,7 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "basket.context_processor.total_basket_quantity",
             ],
         },
     },
@@ -153,3 +155,5 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = config("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+
+BASKET_SESSION_ID = "basket"
