@@ -1,5 +1,4 @@
 # web1_django
-<<<<<<< HEAD
 web project with Django
 
 https://piwero-django1.herokuapp.com
@@ -12,7 +11,7 @@ web project for a company with a blog, contact form, services catalogue and shop
 ```commandline
 virtualenv .venv -p python3
 . .venv/bin/activate
-<<<<<<< HEAD
+
 or python3 -m virtualenv .venv
 ```
 
