@@ -3,7 +3,7 @@ asgiref==3.3.1
 automium==0.2.6
 automium-web==0.1.1
 backcall==0.2.0
-certifi==2020.12.5
+certifi==2021.10.8
 chardet==4.0.0
 click==7.1.2
 decorator==4.4.2
