@@ -1,5 +1,5 @@
 appnope==0.1.2
-asgiref==3.3.1
+asgiref==3.5.1
 automium==0.2.6
 automium-web==0.1.1
 backcall==0.2.0
@@ -14,7 +14,7 @@ ipdb==0.13.4
 ipython==7.32.0
 ipython-genutils==0.2.0
 itsdangerous==2.1.2
-jedi==0.18.0
+jedi==0.18.1
 Jinja2==3.1.1
 legacy==0.1.6
 MarkupSafe==2.1.1
