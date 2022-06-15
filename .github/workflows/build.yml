@@ -13,29 +13,39 @@ jobs:
         python-version: [3.7.9]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
 
       - name: Install main packages
         run: |
+          echo "**************** Install main packages **************** "
           pip install --upgrade pip poetry virtualenv
       - name: Create virtual environment
         run: |
+          echo "Create virtual environment"
           virtualenv .venv -p python3
       - name: Install dependencies
         run: |
+          echo "**************** Install dependencies **************** "
           source .venv/bin/activate
           poetry install
       - name: Lint with flake8
         run: |
+          echo "**************** Run linting **************** "
           source .venv/bin/activate
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
       - name: Test with pytest
+        with:
+          retry_on: error
+          timeout_seconds: 15
+          max_attempts: 3
+
         run: |
+          echo "**************** Run tests **************** "
           source .venv/bin/activate
           export SECRET_KEY=${{ secrets.SECRET_KEY }}
           export EMAIL_BACKEND=${{ secrets.EMAIL_BACKEND }}
