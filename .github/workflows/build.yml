@@ -43,7 +43,6 @@ jobs:
           retry_on: error
           timeout_seconds: 15
           max_attempts: 3
-
         run: |
           echo "**************** Run tests **************** "
           source .venv/bin/activate
@@ -55,4 +54,4 @@ jobs:
           export EMAIL_HOST_USER=${{ secrets.EMAIL_HOST_USER }}
           export EMAIL_HOST_PASSWORD=${{ secrets.EMAIL_HOST_PASSWORD }}
           pytest
-
+  
