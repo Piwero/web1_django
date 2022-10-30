@@ -13,10 +13,10 @@ jobs:
         python-version: [3.7.9]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
 
@@ -39,11 +39,6 @@ jobs:
           source .venv/bin/activate
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
       - name: Test with pytest
-        with:
-          retry_on: error
-          timeout_seconds: 15
-          max_attempts: 3
-
         run: |
           echo "**************** Run tests **************** "
           source .venv/bin/activate
