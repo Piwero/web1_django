@@ -1,5 +1,6 @@
 # web1_django
-web project with Django
+One of the first project demos I did with Django. (I felt proud, and now ashamed of this XD)
+I was about to deprecate this project, but it's always worth to keep it here as a reference.
 
 https://piwero-django1.herokuapp.com
 
