@@ -31,5 +31,5 @@ services==0.1.1
 sqlparse==0.4.2
 traitlets==5.9.0
 urllib3==1.26.14
-wcwidth==0.2.5
+wcwidth==0.2.6
 Werkzeug==2.2.3
