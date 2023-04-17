@@ -10,7 +10,7 @@ decorator==5.1.1
 Django==3.1.14
 Flask==2.2.3
 idna==3.3
-ipdb==0.13.11
+ipdb==0.13.13
 ipython==8.10.0
 ipython-genutils==0.2.0
 itsdangerous==2.1.2
