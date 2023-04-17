@@ -21,7 +21,7 @@ MarkupSafe==2.1.2
 parso==0.8.3
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==9.0.1
+Pillow==9.5.0
 prompt-toolkit==3.0.38
 ptyprocess==0.7.0
 Pygments==2.15.0
