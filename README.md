@@ -54,6 +54,7 @@ EMAIL_HOST_PASSWORD = "" # Your Gmail password
 
 Ask someone in the team to share their .env file with you, which contains the secrets of
 the project. These secrets should never be pushed to the repository!
+```
 
 ### Activate pre-commit configuration
 ```commandline
