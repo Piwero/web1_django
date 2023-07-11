@@ -43,7 +43,7 @@ whitenoise = "^6.4.0"
 Pillow = "^10.0.0"
 
 [tool.poetry.dev-dependencies]
-black = "23.3.0"
+black = "23.7.0"
 flake9 = "3.8.3.post2"
 ipdb = "0.13.13"
 isort = "5.12.0"
