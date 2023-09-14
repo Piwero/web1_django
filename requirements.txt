@@ -29,7 +29,7 @@ pytz==2023.3.post1
 requests==2.31.0
 services==0.1.1
 sqlparse==0.4.4
-traitlets==5.9.0
+traitlets==5.10.0
 urllib3==2.0.4
 wcwidth==0.2.6
 Werkzeug==2.3.7
