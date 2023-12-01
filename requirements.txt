@@ -11,7 +11,7 @@ Django==4.2.7
 Flask==3.0.0
 idna==3.5
 ipdb==0.13.13
-ipython==8.18.0
+ipython==8.18.1
 ipython-genutils==0.2.0
 itsdangerous==2.1.2
 jedi==0.19.1
