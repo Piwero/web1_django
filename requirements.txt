@@ -1,5 +1,5 @@
 appnope==0.1.4
-asgiref==3.8.0
+asgiref==3.8.1
 automium==0.2.6
 automium-web==0.1.1
 backcall==0.2.0
