@@ -7,7 +7,7 @@ certifi==2024.2.2
 chardet==5.2.0
 click==8.1.7
 decorator==5.1.1
-Django==5.0.5
+Django==5.0.6
 Flask==3.0.3
 idna==3.7
 ipdb==0.13.13
