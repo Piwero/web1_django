@@ -28,7 +28,7 @@ Pygments==2.18.0
 pytz==2024.2
 requests==2.32.3
 services==0.1.1
-sqlparse==0.5.2
+sqlparse==0.5.3
 traitlets==5.14.3
 urllib3==2.2.3
 wcwidth==0.2.13
