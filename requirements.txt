@@ -30,6 +30,6 @@ requests==2.32.3
 services==0.1.1
 sqlparse==0.5.3
 traitlets==5.14.3
-urllib3==2.2.3
+urllib3==2.3.0
 wcwidth==0.2.13
 Werkzeug==3.1.3
