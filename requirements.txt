@@ -24,7 +24,7 @@ pickleshare==0.7.5
 Pillow==10.4.0
 prompt-toolkit==3.0.48
 ptyprocess==0.7.0
-Pygments==2.18.0
+Pygments==2.19.0
 pytz==2024.2
 requests==2.32.3
 services==0.1.1
