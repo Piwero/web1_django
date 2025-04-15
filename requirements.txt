@@ -22,7 +22,7 @@ parso==0.8.4
 pexpect==4.9.0
 pickleshare==0.7.5
 Pillow==10.4.0
-prompt-toolkit==3.0.50
+prompt-toolkit==3.0.51
 ptyprocess==0.7.0
 Pygments==2.19.1
 pytz==2025.2
