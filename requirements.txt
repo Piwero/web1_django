@@ -9,7 +9,7 @@ click==8.3.0
 decorator==5.2.1
 Django==5.1.4
 Flask==3.1.2
-idna==3.10
+idna==3.11
 ipdb==0.13.13
 ipython==9.6.0
 ipython-genutils==0.2.0
